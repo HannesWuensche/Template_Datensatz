@@ -1,13 +1,14 @@
 Datensatzdokumentation  
 # Template Datensatz 
 
-[Vorname Name](ORCID)
-[Referat](LINK)
+[Bundesministerium für Wirtschaft und Klimaschutz](https://www.bmwk.de/)  
+Scharnhorststr. 34-37  
+10115 Berlin  
 
 ---
 
-**Zititeren** 
-Vorname Name(*2023*): Template Datensatz. Zenodo. DOI: [10.5072/zenodo.829](https://doi.org/10.5072/zenodo.829)
+**Zititeren**   
+Bundesministerium für Wirtschaft und Klimaschutz (**2023**): Template Datensatz. Zenodo. DOI: [10.5072/zenodo.829](https://doi.org/10.5072/zenodo.829)  
 
 ## Einleitung
 
@@ -73,4 +74,4 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "GrippeWeb - Daten des Wochenberichts" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY ](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/GrippeWeb_Daten_des_Wochenberichts/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/GrippeWeb_Daten_des_Wochenberichts/blob/main/LIZENZ) Datei des Datensatzes.
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](LICENSE) bzw. [LIZENZ](/LIZENZ) Datei des Datensatzes.

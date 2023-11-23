@@ -7,62 +7,62 @@
               @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
               <https://zenodo.org/record/14> a dcat:Dataset ;
-                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
-                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/wirtschaftsministerium> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@bmwk.bund.de" ; foaf:name "Bundesministerium für Wirtschaft und Klimaschutz | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Organization; foaf:name "Open Data Team" ];
                   dct:description "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum <a href=\"http://rki.de\">lorem ipsum</a>.<br>- lorem ipsum<br>- lorem ipsumlorem ipsum" ;
-                  dct:issued "2023-11-22T17:08:53+01:00"^^xsd:dateTime ;
-                  dct:modified "2023-10-19T12:16:30+02:00"^^xsd:dateTime ;
+                  dct:issued "2023-11-23T17:08:53+01:00"^^xsd:dateTime ;
+                  dct:modified "2023-11-20T12:16:30+02:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
-                      foaf:mbox "opendata@rki.de" ;
-                      foaf:name "Robert Koch Institut"
+                      foaf:mbox "opendata@bmwk.bund.de" ;
+                      foaf:name "Bundesministerium für Wirtschaft und Klimaschutz"
                   ] ;
-                  dct:title "Open Data - Sandbox" ;
+                  dct:title "Template Datensatz" ;
                    dcat:contactPoint [ a vcard:Organization ;
-                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:fn "Bundesministerium für Wirtschaft und Klimaschutz | Open Data Team" ;
                         vcard:hasCountryName "Deutschland" ;
-                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasEmail "opendata@bmwk.bund.de";
                         vcard:hasLocality "Berlin" ;
-                        vcard:hasPostalCode "13353" ;
-                        vcard:hasStreetAddress "Nordufer 20"
+                        vcard:hasPostalCode "10115" ;
+                        vcard:hasStreetAddress "Scharnhorststr. 34-37"
                   ];
-                  dcat:landingPage <https://robert-koch-institut.github.io/OpenData_Sandbox>;
+                  dcat:landingPage <https://www.github.io/DataLab-BMWK/Template_Datensatz>;
                   dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
                                 <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
                                 <http://publications.europa.eu/resource/authority/data-theme/TECH>;
-                  dcat:keyword "Open Data","RKI";
+                  dcat:keyword "Open Data","BMWK";
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Open Data Team (2023): Open Data - Sandbox, Berlin: Zenodo. DOI:10.5072/zenodo.829" ;
+                    dcatde:licenseAttributionByText "Bundesministerium für Wirtschaft und Klimaschutz (2023): Template Datensatz, Berlin: Zenodo. DOI:10.5072/zenodo.829" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-                    dct:title "Github - Open Data - Sandbox" ;
-                    dcat:accessURL <https://github.com/robert-koch-institut/OpenData_Sandbox>;
-                    dct:modified "2023-11-22T17:08:53+01:00"^^xsd:dateTime;
+                    dct:title "Github - Template Datensatz" ;
+                    dcat:accessURL <https://github.com/DataLab-BMWK/Template_Datensatz>;
+                    dct:modified "2023-11-23T17:08:53+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Open Data Team (2023): Open Data - Sandbox, Berlin: Zenodo. DOI:10.5072/zenodo.829" ;
+                    dcatde:licenseAttributionByText "Bundesministerium für Wirtschaft und Klimaschutz (2023): Template Datensatz, Berlin: Zenodo. DOI:10.5072/zenodo.829" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-                    dct:title "Zenodo - Open Data - Sandbox" ;
+                    dct:title "Zenodo - Template Datensatz" ;
                     dcat:accessURL <https://zenodo.org/record/14>;
-                    dct:modified "2023-11-22T17:08:53+01:00"^^xsd:dateTime;
+                    dct:modified "2023-11-23T17:08:53+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dct:title "[Dokumentation] Open_Data_-_Sandbox.pdf" ;
-                    dcatde:licenseAttributionByText "Open Data Team (2023): Open Data - Sandbox, Berlin: Zenodo. DOI:10.5072/zenodo.829" ;
+                    dct:title "[Dokumentation]_Template_Datensatz.pdf" ;
+                    dcatde:licenseAttributionByText "Bundesministerium für Wirtschaft und Klimaschutz (2023): Template Datensatz, Berlin: Zenodo. DOI:10.5072/zenodo.829" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Open Data - Sandbox' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-                    dcat:accessURL <https://zenodo.org/record/14/files/%5BDokumentation%5D_OpenData_Sandbox.pdf>;
-                    dct:modified "2023-11-22T17:08:53+01:00"^^xsd:dateTime;
+                    dcat:accessURL <https://github.com/DataLab-BMWK/Template_Datensatz/blob/main/%5BDokumentation%5D_Template_Datensatz.pdf>;
+                    dct:modified "2023-11-23T17:08:53+01:00"^^xsd:dateTime;
                   ].
