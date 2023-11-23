@@ -1,0 +1,57 @@
+{
+  "title": "Open Data - Sandbox",
+  "description": "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum <a href=\"http://rki.de\">lorem ipsum</a>.<br>\n- lorem ipsum<br>\n- lorem ipsumlorem ipsum",
+  "creators": [
+    {
+      "name": "Open Data Team",
+      "affiliation": "Open Data Team"
+    }
+  ],
+  "contributors": [],
+  "keywords": [
+    "Open Data",
+    "RKI"
+  ],
+  "publication_date": "2023-11-22",
+  "version": "2023-10-19",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "subjects": [],
+  "dates": [
+    {
+      "start": "2023-10-19T12:16:30+02:00",
+      "end": "2023-10-19T12:16:30+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/robert-koch-institut/OpenData_Sandbox",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/OpenData_Sandbox/blob/main/Readme.md",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/OpenData_Sandbox/blob/main/[Dokumentation]_OpenData_Sandbox.pdf",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDescribedBy",
+      "identifier": "https://www.github.io/robert-koch-institut/Open_Data_-_Sandbox",
+      "resource_type": "other"
+    }
+  ]
+}

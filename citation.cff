@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+type: dataset
+title: Template Datensatz
+abstract: >-
+  lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
+  ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
+  ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
+  ipsumlorem ipsum lorem ipsum.
+date-released: '2023-11-22'
+keywords:
+  - Open Data
+  - RKI
+message: Cite me!
+url: https://www.github.io/...
+license: CC-BY-4.0
+doi: 10.5072/zenodo.829
+version: '2023-10-19T12:16:30+02:00'
+authors:
+  - family-names: Name
+    given-names: Vorname
+    affiliation: ORG
+    orcid: 0000-0000-0000-0000

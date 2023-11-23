@@ -1,0 +1,19 @@
+name: Open Data Workflows
+on:
+  push:
+    tags:
+      - '[0-9][0-9][0-9][0-9]-[0-1][0-9]-[0-3][0-9]'
+  #workflow_dispatch:
+
+jobs:
+  build:
+    uses: robert-koch-institut/OpenData-Workflows/.github/workflows/OpenData_Workflows.yml@main
+    with:
+      OPENCODE_GROUPID: 4116
+      OPENCODE_ACCESS_USER: RKIOpenData
+      OPENCODE_ZENODOJSON_PATH: Metadaten/zenodo.json
+      GOVDATA_DESTINATION_REPO: RKIOpenData/Metadaten_fuer_GovData
+    secrets:
+      GOVDATA_GITHUB_TOKEN: ${{secrets.GOVDATA_TOKEN}}
+      OPENCODE_TOKEN: ${{secrets.OPENCODE_TOKEN}}
+      GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
