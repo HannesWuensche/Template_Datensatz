@@ -9,10 +9,10 @@ jobs:
   build:
     uses: robert-koch-institut/OpenData-Workflows/.github/workflows/OpenData_Workflows.yml@main
     with:
-      OPENCODE_GROUPID: 4116
-      OPENCODE_ACCESS_USER: RKIOpenData
+      OPENCODE_GROUPID: 0000
+      OPENCODE_ACCESS_USER: Test
       OPENCODE_ZENODOJSON_PATH: Metadaten/zenodo.json
-      GOVDATA_DESTINATION_REPO: RKIOpenData/Metadaten_fuer_GovData
+      GOVDATA_DESTINATION_REPO: DataLab-BMWK/Metadaten_fuer_GovData
     secrets:
       GOVDATA_GITHUB_TOKEN: ${{secrets.GOVDATA_TOKEN}}
       OPENCODE_TOKEN: ${{secrets.OPENCODE_TOKEN}}
